@@ -13,6 +13,7 @@ export const auth = asyncHandler(
     try {
       const user = verifyToken(token, jwt_access_secret as string);
       req.user = user;
+      next();
     } catch (error) {
       throw new ApiError(401, "Unauthorized access!");
     }

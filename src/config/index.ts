@@ -9,4 +9,7 @@ export const {
   JWT_ACCESS_EXPIRES_IN: jwt_access_expires_in,
   JWT_REFRESH_SECRET: jwt_refresh_secret,
   JWT_REFRESH_EXPIRES_IN: jwt_refresh_expires_in,
+  CLOUDINARY_CLOUD_NAME: cloudinary_cloud_name,
+  CLOUDINARY_API_KEY: cloudinary_api_key,
+  CLOUDINARY_API_SECRET: cloudinary_api_secret,
 } = process.env;
